@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_demo1"
+        android:layout_width="182dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginBottom="49dp"
+        android:text="Demo1:Android ListView的用法"
+        app:layout_constraintBottom_toTopOf="@+id/btn_demo2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_demo2"
+        android:layout_width="182dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:text="Demo2:创建自定义布局的AlertDialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_demo1" />
+
+    <Button
+        android:id="@+id/btn_demo3"
+        android:layout_width="182dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:text="Demo3:福建师范大学数学与信息学院http://math.fjnu.edu.cn/ 使用XML定义菜单"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_demo2" />
+
+    <Button
+        android:id="@+id/btn_demo4"
+        android:layout_width="182dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="49dp"
+        android:text="Demo4:创建上下文操作模式(ActionMode)的上下文菜单"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_demo3" />
+
+</android.support.constraint.ConstraintLayout>
