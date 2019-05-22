@@ -7,4 +7,5 @@
 ![](https://github.com/YT1v4/Lab3/blob/master/4.png)
 ![](https://github.com/YT1v4/Lab3/blob/master/5.png)
 ![04](https://github.com/YT1v4/Lab3/blob/master/6.png)
-![](https://github.com/YT1v4/Lab3/blob/master/7.png)(https://github.com/YT1v4/Lab3/blob/master/8.png)
+![](https://github.com/YT1v4/Lab3/blob/master/7.png)
+![](https://github.com/YT1v4/Lab3/blob/master/8.png)
